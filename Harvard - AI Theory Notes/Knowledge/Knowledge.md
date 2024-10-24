@@ -125,3 +125,4 @@ Ex. House(x) & BelongsTo(A,x)
 
 Combined - Ax. Person(x) -> (Ey.House(y) & BelongsTo(x,y))
 All this enables AI to represent knowledge based on what information
+<hr>
