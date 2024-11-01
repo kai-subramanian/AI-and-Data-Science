@@ -199,5 +199,5 @@ the assumption that the evidence variable depends only on the corresponding stat
         <td>Given observations from start till now, calculate the distribution for past state</td>
     </tr>
 </table>
-<hr>
+
 <hr>
