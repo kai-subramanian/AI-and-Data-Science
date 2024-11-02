@@ -33,5 +33,11 @@ Used to either minimize or maximize a value - find global maximum or global mini
         <td>Local beam search</td>
         <td>Choose the k highest-valued neighbours</td>
     </tr>
-    
 </table>
+
+
+### Simulated Annealing 
+
+* Early on, higher temperature : More likely to accept neighbours that are worse than the current state.
+
+* Later on, lower temperature : Less likely likely to accept neighbours that are worse than the current state.
