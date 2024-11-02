@@ -41,3 +41,15 @@ Used to either minimize or maximize a value - find global maximum or global mini
 * Early on, higher temperature : More likely to accept neighbours that are worse than the current state.
 
 * Later on, lower temperature : Less likely likely to accept neighbours that are worse than the current state.
+
+fn simulated(problem, max):
+    current = initial state of problem
+    for t=1 to max:
+        T=TEMPERATURE(t)
+        neighbour=random neighbour of current
+        deltaE = how much better neighbour is than current
+        if(deltaE>0):
+            current=neighbour
+        with probability e^(deltaE/t) set current=neighbour
+    end for
+end fn
