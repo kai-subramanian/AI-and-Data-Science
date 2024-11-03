@@ -45,3 +45,16 @@ Consists of -
 * Set of actions ACTIONS(s)
 * Transition Model
 * Reward Function.
+
+
+### Function Approximation
+
+Approximating Q(s,a), often by a function that combines various features, rather than storing one value for every state-action pair.
+
+### Unsupervised learning
+
+Data without any additional feedback, we learn the patterns.
+
+* Clustering - organizing objects into groups where similar objects are in same groups. Used in Genetics, Image recognition, etc.
+* k-Means clutering - Used to cluster data based on repeatedly assining points to clusters and updating the cluster's centers.
+* Unsupervised learning also includes dimensionality reduction.
