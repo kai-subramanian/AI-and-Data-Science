@@ -36,4 +36,22 @@ We add multiple layers to the neural network. The outputs can be modelled based 
 
 This is also useful in **reinforcement learning**, where the agent takes the action choice based on node with highest probability.
 
-### Overfitting
+
+### Perceptron
+
+* Only capable of learning based on linearly separable data.
+
+### To overcome this, we use a Multi-layer neural network.
+
+* It has i/p layer, **hidden layer** and an o/p layer.
+* Each of the i/p layer is connected to hidden node.
+
+### Backpropagation
+
+* Start with a random choice of weights
+* Repeat -
+Calculate error for each output layer.
+For each layer, starting with the output layer, and moving inwards towards earliest hidden layer - 
+&emsp; - Propagate error back one layer
+&emsp; - Update the weights.
+
