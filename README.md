@@ -5,3 +5,6 @@ First, we start off with introduction to mathematics. I was initially using LaTe
 Next, data analytics projects from freeCodeCamp. I will be moving to Machine Learning next, and from there an LLM which I (hopefully) build on my own.
 
 Keep watching this space for more:)
+
+EDIT - I decided to use Markdown to take notes. Much faster and a better tradeoff as opposed to writing notes manually :)
+
